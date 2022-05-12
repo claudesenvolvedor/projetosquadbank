@@ -9,3 +9,10 @@ claudesenvolvedor@gmail.com
 
 Lucileide Sudré
 lucileidedacome@hotmail.com
+
+# Criada a Class Modelo Conta
+Com seus atributos privados:
+cliente
+cpf
+agência
+saldo
