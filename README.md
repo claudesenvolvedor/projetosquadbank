@@ -16,3 +16,7 @@ cliente
 cpf
 agência
 saldo
+
+# Criada a class ClienteSimples
+
+A class ClienteSimples herdará da class modelo Conta os atributos cliente, cpf, agencia, saldo
