@@ -20,3 +20,9 @@ saldo
 # Criada a class ClienteSimples
 
 A class ClienteSimples herdará da class modelo Conta os atributos cliente, cpf, agencia, saldo
+E terá seu construtor com os atributos endereco, telefone, profissao, cargo
+
+# Criada a Class ClienteEspecial
+
+A class ClienteEspecial herdará da class Conta os atributos cliente, cpf, agencia, saldo
+E terá seu construtor próprio adicionando os atributos endereco, telefone, profissao, cargo, limite
