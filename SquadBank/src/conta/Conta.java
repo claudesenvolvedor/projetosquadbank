@@ -13,4 +13,34 @@ public class Conta {
 		this.agencia = agencia;
 		this.saldo = saldo;
 	}
+
+	public String getCliente() {
+		return cliente;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public boolean saca(double valor) {
+		if (this.saldo >= valor) {
+			this.saldo -= valor;
+			return true;
+		} else {
+			return false;
+		}
+
+	}
 }
