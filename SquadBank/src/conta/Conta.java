@@ -43,4 +43,8 @@ public class Conta {
 		}
 
 	}
+	public void mostrarDados() {
+		 System.out.println(this.getCliente() + this.getCpf() + this.getAgencia() + this.getSaldo());
+		
+	}
 }
