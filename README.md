@@ -26,3 +26,8 @@ E terá seu construtor com os atributos endereco, telefone, profissao, cargo
 
 A class ClienteEspecial herdará da class Conta os atributos cliente, cpf, agencia, saldo
 E terá seu construtor próprio adicionando os atributos endereco, telefone, profissao, cargo, limite
+
+# Atualização das Classes ClienteSimples e ClienteEspecial
+
+Cada uma com seu construtor padrão
+Cada uma com seu método mostrar Dados reaproveitado da class Conta
