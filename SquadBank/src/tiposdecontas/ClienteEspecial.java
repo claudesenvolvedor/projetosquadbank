@@ -23,7 +23,7 @@ public class ClienteEspecial extends Conta {
 		this.limite = limite;
 	}
 
-	public double setLimite(double limite) {
+	public void setLimite(double limite) {
 		this.limite = limite;
 	}
 

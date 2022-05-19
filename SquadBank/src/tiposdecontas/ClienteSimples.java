@@ -22,6 +22,9 @@ public class ClienteSimples extends Conta {
 
 	public void mostrarDados() {
 		super.mostrarDados();
-		System.out.println(this.endereco + this.telefone + this.profissao + this.cargo);
+		System.out.println("Endereço: " + this.endereco);
+		System.out.println("Telefone de Contato: " + this.telefone);
+		System.out.println("Profissão: " +  this.profissao);
+		System.out.println("Cargo: " + this.cargo);
 	}
 }
