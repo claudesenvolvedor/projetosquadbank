@@ -31,3 +31,7 @@ E terá seu construtor próprio adicionando os atributos endereco, telefone, pro
 
 Cada uma com seu construtor padrão
 Cada uma com seu método mostrar Dados reaproveitado da class Conta
+
+# Atualização da class ClienteSimples e ClienteEspecial
+
+Pronta para teste de execução simulando a abertura de Contas
