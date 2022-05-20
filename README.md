@@ -39,3 +39,7 @@ Pronta para teste de execução simulando a abertura de Contas
 # Atualização da Class Modelo Conta
 
 Feito getters and setters e o metodo sacar
+
+# Atualização da Class Modelo Conta
+
+Criado metodo mostrarDados
