@@ -35,3 +35,7 @@ Cada uma com seu método mostrar Dados reaproveitado da class Conta
 # Atualização da class ClienteSimples e ClienteEspecial
 
 Pronta para teste de execução simulando a abertura de Contas
+
+# Atualização da Class Modelo Conta
+
+Feito getters and setters e o metodo sacar
