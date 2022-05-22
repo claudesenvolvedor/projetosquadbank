@@ -2,9 +2,10 @@ package tiposdecontas;
 
 import conta.Conta;
 
-//herdará da class Conta
+//herdarï¿½ da class Conta
 public class ClienteSimples extends Conta {
-
+	
+  
 	private String endereco;
 	private String telefone;
 	private String profissao;
@@ -18,13 +19,13 @@ public class ClienteSimples extends Conta {
 		this.profissao = profissao;
 		this.cargo = cargo;
 	}
-	// método reaproveitado da class Conta
+	// mï¿½todo reaproveitado da class Conta
 
 	public void mostrarDados() {
 		super.mostrarDados();
-		System.out.println("Endereço: " + this.endereco);
+		System.out.println("Endereï¿½o: " + this.endereco);
 		System.out.println("Telefone de Contato: " + this.telefone);
-		System.out.println("Profissão: " +  this.profissao);
+		System.out.println("Profissï¿½o: " +  this.profissao);
 		System.out.println("Cargo: " + this.cargo);
 	}
 }

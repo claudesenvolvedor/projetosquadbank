@@ -1,9 +1,9 @@
 package conta;
+
 public class Conta {
 
 	private String cliente;
 	private String cpf;
-	
 	private int agencia;
 	private double saldo;
 
@@ -43,8 +43,23 @@ public class Conta {
 		}
 
 	}
+
+	public void deposita(double valor) {
+		this.saldo += valor;
+
+	}
+
+	public boolean transfere(double valor, Conta destino) {
+		if (this.saldo >= valor) {
+			this.saldo -= valor;
+			destino.deposita(valor);
+			return true;
+		}
+		return false;
+	}
+
 	public void mostrarDados() {
-		 System.out.println(this.getCliente() + this.getCpf() + this.getAgencia() + this.getSaldo());
-		
+		System.out.println(this.getCliente() + this.getCpf() + this.getAgencia() + this.getSaldo());
+
 	}
 }
