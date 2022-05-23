@@ -4,8 +4,7 @@ import conta.Conta;
 
 //herdarï¿½ da class Conta
 public class ClienteSimples extends Conta {
-	
-  
+
 	private String endereco;
 	private String telefone;
 	private String profissao;
@@ -23,9 +22,9 @@ public class ClienteSimples extends Conta {
 
 	public void mostrarDados() {
 		super.mostrarDados();
-		System.out.println("Endereï¿½o: " + this.endereco);
+		System.out.println("Endereço" + this.endereco);
 		System.out.println("Telefone de Contato: " + this.telefone);
-		System.out.println("Profissï¿½o: " +  this.profissao);
+		System.out.println("Profissão" + this.profissao);
 		System.out.println("Cargo: " + this.cargo);
 	}
 }
