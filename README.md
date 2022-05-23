@@ -43,3 +43,9 @@ Feito getters and setters e o metodo sacar
 # Atualização da Class Modelo Conta
 
 Criado metodo mostrarDados
+
+# Atualização do Projeto
+
+Identação concluída em todas as classes
+Simulação de abertura de contas
+Simulação de transações e movimentação da conta
